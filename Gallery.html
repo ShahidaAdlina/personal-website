@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GALLERY</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<style>
+		*
+		{
+			box-sizing: border-box;
+		}
+		.column
+		{
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+		.row:after
+		{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		p, h1
+		{
+			padding: 5px;
+			letter-spacing: 1.5px;
+		}
+		img 
+		{
+			width: 80%;
+		}
+		ul
+		{
+			align-content: center;
+		}
+		table
+		{
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	</style>
+
+</head>
+<body>
+
+	<nav>
+		<div class="navbar">
+			<a href="Home.html" target="_blank">Home</a>
+			<a href="Biodata.html" target="_blank">Biodata</a>
+			<a href="Experience.html" target="_blank">Experince</a>
+			<a href="Education.html" target="_blank">Education</a>
+			<a href="Family.html" target="_blank">Family</a>
+			<a href="Gallery.html" target="_blank">Gallery</a>
+		</div>
+	</nav>
+
+	<div class="header">
+		<h1 style="color: darkcyan;">My Gallery</h1>
+		<p style="font-size: 20px;">Collection of Variety  <strong>Chocolate Flavor Dessert</strong></p>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<p style="position: center;"><img src="images/Cake.jpg" alt="Cake"><b>Chocolate Cake</b></p>
+		</div>
+		<div class="column">
+			<p style="position: center;"><img src="images/Cookie.jpg" alt="Cookie"><b>Chocolate Chip Cookie</b></p>
+		</div>
+		<div class="column">
+			<p style="position: center;"><img src="images/Smoothie.jpg" alt="Smoothie"><b>Chocolate Smoothie</b></p>
+		</div>
+	</div>
+
+		
+
+
+</body>
+</html>
